@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Profil anonyme — présence visuelle & projets publics." />
+  <title>∅</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="avatar.png" type="image/png" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__visual" aria-hidden="true">
+      <img
+        class="hero__img"
+        src="avatar.png"
+        alt=""
+        width="920"
+        height="920"
+        decoding="async"
+        fetchpriority="high"
+      />
+      <div class="hero__veil"></div>
+    </div>
+
+    <nav class="topnav" aria-label="Navigation">
+      <a class="topnav__mark" href="#top" aria-label="Accueil">∅</a>
+      <a class="topnav__link" href="#projets">Projets</a>
+    </nav>
+
+    <div class="hero__content" id="top">
+      <p class="brand" aria-hidden="true">∅</p>
+      <h1 class="headline">Silence.<br />Signal net.</h1>
+      <p class="lede">
+        Une présence sans visage — seulement le travail, et le regard.
+      </p>
+      <div class="cta">
+        <a class="cta__primary" href="https://github.com/42randomuser" target="_blank" rel="noopener noreferrer">
+          Ouvrir le dépôt
+        </a>
+        <a class="cta__ghost" href="#projets">Voir les projets</a>
+      </div>
+    </div>
+
+    <a class="scroll-hint" href="#projets" aria-label="Aller aux projets">
+      <span class="scroll-hint__line"></span>
+    </a>
+  </header>
+
+  <main>
+    <section class="projects" id="projets">
+      <div class="projects__intro">
+        <p class="section-label">Projets publics</p>
+        <h2 class="section-title">Trois dépôts. Une ligne claire.</h2>
+        <p class="section-copy">
+          Fondations en C — précision, interfaces nettes, code pensé pour durer.
+        </p>
+      </div>
+
+      <ul class="repo-list">
+        <li class="repo">
+          <a href="https://github.com/42randomuser/Libft-42" target="_blank" rel="noopener noreferrer">
+            <span class="repo__meta">C · bibliothèque</span>
+            <span class="repo__name">Libft-42</span>
+            <span class="repo__desc">Librairie C fondamentale — chaînes, mémoire, listes.</span>
+            <span class="repo__arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="repo">
+          <a href="https://github.com/42randomuser/ft_printf" target="_blank" rel="noopener noreferrer">
+            <span class="repo__meta">C · formatage</span>
+            <span class="repo__name">ft_printf</span>
+            <span class="repo__desc">Réimplémentation de printf — précision et contrôle du flux.</span>
+            <span class="repo__arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+        <li class="repo">
+          <a href="https://github.com/42randomuser/gnl" target="_blank" rel="noopener noreferrer">
+            <span class="repo__meta">C · I/O</span>
+            <span class="repo__name">gnl</span>
+            <span class="repo__desc">get_next_line — lecture ligne à ligne, tampon efficace.</span>
+            <span class="repo__arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="connect">
+      <h2 class="connect__title">Continuer ailleurs</h2>
+      <p class="connect__copy">
+        Le code vit sur GitHub — ouvrez, forkez, lisez.
+      </p>
+      <a class="cta__primary" href="https://github.com/42randomuser" target="_blank" rel="noopener noreferrer">
+        Accéder à GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span aria-hidden="true">∅</span> · présence anonyme</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
