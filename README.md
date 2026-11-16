@@ -26,15 +26,13 @@
 
 <br/>
 
-## Latence
+## Stack
 
-Entre deux commits, le même noir. Pas d’histoire à raconter — seulement l’intervalle.
+<p align="center"><em>Outils, pas biographie.</em></p>
 
-|  |  |
-|:--|:--|
-| **ambre** | lumière basse — ce qui tient sans éclairer |
-| **vide** | place laissée au signal |
-| **∅** | pas un nom — une absence choisie |
+<p align="center">
+  <img src="assets/stack.svg" alt="Stack — C, Shell, Make, Git, Linux, Neovim" width="900" />
+</p>
 
 <br/>
 

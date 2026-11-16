@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Stack">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="55%" stop-color="#0c0b09"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14110c"/>
+      <stop offset="100%" stop-color="#0a0907"/>
+    </linearGradient>
+    <linearGradient id="amberLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5b942" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f5b942" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="6" fill="url(#board)"/>
+  <rect x="24" y="18" width="852" height="1" fill="url(#amberLine)" opacity="0.7">
+    <animate attributeName="opacity" values="0.35;0.85;0.35" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- row 1 -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <!-- C -->
+    <g transform="translate(36,40)">
+      <rect width="130" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="65" y="44" text-anchor="middle" font-size="28" font-weight="700" fill="#f5b942">C</text>
+      <text x="65" y="62" text-anchor="middle" font-size="11" fill="#b9b3a6" letter-spacing="1.5">LANGAGE</text>
+    </g>
+    <!-- Shell -->
+    <g transform="translate(182,40)">
+      <rect width="130" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="65" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#f5b942">$_</text>
+      <text x="65" y="56" text-anchor="middle" font-size="14" font-weight="600" fill="#f4f1ea">Shell</text>
+    </g>
+    <!-- Make -->
+    <g transform="translate(328,40)">
+      <rect width="130" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="65" y="34" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#f5b942">::</text>
+      <text x="65" y="56" text-anchor="middle" font-size="14" font-weight="600" fill="#f4f1ea">Make</text>
+    </g>
+    <!-- Git -->
+    <g transform="translate(474,40)">
+      <rect width="130" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.35" stroke-width="1"/>
+      <circle cx="65" cy="28" r="5" fill="none" stroke="#f5b942" stroke-width="1.5"/>
+      <line x1="65" y1="33" x2="65" y2="48" stroke="#f5b942" stroke-width="1.5"/>
+      <circle cx="65" cy="52" r="4" fill="#f5b942"/>
+      <text x="65" y="68" text-anchor="middle" font-size="12" font-weight="600" fill="#f4f1ea">Git</text>
+    </g>
+    <!-- Linux -->
+    <g transform="translate(620,40)">
+      <rect width="130" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.35" stroke-width="1"/>
+      <circle cx="65" cy="28" r="10" fill="none" stroke="#f5b942" stroke-width="1.4"/>
+      <circle cx="65" cy="28" r="3" fill="#f5b942"/>
+      <text x="65" y="60" text-anchor="middle" font-size="13" font-weight="600" fill="#f4f1ea">Linux</text>
+    </g>
+    <!-- Neovim -->
+    <g transform="translate(766,40)">
+      <rect width="98" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="49" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" fill="#f5b942">vi</text>
+      <text x="49" y="60" text-anchor="middle" font-size="11" fill="#b9b3a6">Neovim</text>
+    </g>
+
+    <!-- row 2 — quieter tools -->
+    <g transform="translate(36,128)">
+      <rect width="200" height="56" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.22" stroke-width="1"/>
+      <text x="100" y="34" text-anchor="middle" font-size="14" fill="#f4f1ea" letter-spacing="2">GDB · VALGRIND</text>
+    </g>
+    <g transform="translate(252,128)">
+      <rect width="200" height="56" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.22" stroke-width="1"/>
+      <text x="100" y="34" text-anchor="middle" font-size="14" fill="#f4f1ea" letter-spacing="2">POSIX · SOCKETS</text>
+    </g>
+    <g transform="translate(468,128)">
+      <rect width="200" height="56" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.22" stroke-width="1"/>
+      <text x="100" y="34" text-anchor="middle" font-size="14" fill="#f4f1ea" letter-spacing="2">SSH · TMUX</text>
+    </g>
+    <g transform="translate(684,128)">
+      <rect width="180" height="56" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.28" stroke-width="1"/>
+      <text x="90" y="34" text-anchor="middle" font-size="14" fill="#f5b942" letter-spacing="3">∅ SIGNAL</text>
+    </g>
+  </g>
+
+  <rect x="24" y="200" width="852" height="1" fill="url(#amberLine)" opacity="0.45"/>
+</svg>
