@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="signal">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5b942" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#f5b942" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#f5b942" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="64" fill="#070707"/>
+  <path d="M0 32 C 60 8, 120 56, 180 32 S 300 8, 360 32 S 480 56, 540 32 S 660 8, 720 32 S 840 56, 900 32"
+        fill="none" stroke="url(#w)" stroke-width="2.2" stroke-linecap="round">
+    <animate attributeName="d"
+      values="M0 32 C 60 8, 120 56, 180 32 S 300 8, 360 32 S 480 56, 540 32 S 660 8, 720 32 S 840 56, 900 32;
+              M0 32 C 60 56, 120 8, 180 32 S 300 56, 360 32 S 480 8, 540 32 S 660 56, 720 32 S 840 8, 900 32;
+              M0 32 C 60 8, 120 56, 180 32 S 300 8, 360 32 S 480 56, 540 32 S 660 8, 720 32 S 840 56, 900 32"
+      dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="180" cy="32" r="3.5" fill="#f5b942">
+    <animateMotion dur="5s" repeatCount="indefinite"
+      path="M0 0 C 60 -24, 120 24, 180 0 S 300 -24, 360 0 S 480 24, 540 0 S 660 -24, 720 0 S 840 24, 900 0"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
