@@ -1,6 +1,7 @@
 <!--
   Native GitHub profile README.
   Brand: ∅ — anonymous / abstract. No personal identity.
+  Separators: assets/wave.svg only (no --- / <hr> / h1–h2 border rules).
 -->
 
 <div align="center">
@@ -11,7 +12,7 @@
 
   <img src="assets/sigil.svg" width="72" height="72" alt="∅" />
 
-  <h1>∅</h1>
+  <p><strong>∅</strong></p>
 
   <p><em>Silence. Signal net.</em></p>
 
@@ -26,13 +27,23 @@
 
 <br/>
 
-## Stack
+<div align="center">
 
-<p align="center"><em>Outils, pas biographie.</em></p>
+  <h3>Stack</h3>
 
-<p align="center">
+  <p><em>Outils, pas biographie.</em></p>
+
   <img src="assets/stack.svg" alt="Stack — C, Shell, Make, Git, Fedora, Vim · réseaux, forensic, cyber (pentest / red team)" width="900" />
-</p>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <img src="assets/wave.svg" alt="" width="640" />
+
+</div>
 
 <br/>
 
