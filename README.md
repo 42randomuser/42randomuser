@@ -31,7 +31,7 @@
 <p align="center"><em>Outils, pas biographie.</em></p>
 
 <p align="center">
-  <img src="assets/stack.svg" alt="Stack — C, Shell, Make, Git, Linux, Neovim" width="900" />
+  <img src="assets/stack.svg" alt="Stack — C, Shell, Make, Git, Fedora, Vim · réseaux, forensic, cyber (pentest / red team)" width="900" />
 </p>
 
 <br/>
