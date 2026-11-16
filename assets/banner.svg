@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Silence. Signal net.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="45%" stop-color="#0c0b09"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#f5b942" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#c8881a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5b942" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f5b942" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softEye" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- faint grid / noise of signal -->
+  <g opacity="0.12" stroke="#f5b942" stroke-width="0.6">
+    <path d="M40 360 H1160"/>
+    <path d="M40 380 H1160" opacity="0.5"/>
+    <path d="M120 40 V390" opacity="0.35"/>
+    <path d="M1080 40 V390" opacity="0.35"/>
+  </g>
+
+  <!-- scanning signal line -->
+  <rect x="80" y="318" width="220" height="2" fill="url(#amber)" opacity="0.9">
+    <animate attributeName="x" values="80;900;80" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.95;0.2" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- abstract gaze / twin signals -->
+  <g transform="translate(820,145)">
+    <ellipse cx="0" cy="0" rx="46" ry="18" fill="#f5b942" filter="url(#softEye)" opacity="0.55">
+      <animate attributeName="opacity" values="0.35;0.7;0.35" dur="3.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="34" ry="12" fill="#f5b942"/>
+    <ellipse cx="0" cy="0" rx="10" ry="10" fill="#0a0907"/>
+    <ellipse cx="110" cy="0" rx="46" ry="18" fill="#f5b942" filter="url(#softEye)" opacity="0.55">
+      <animate attributeName="opacity" values="0.35;0.7;0.35" dur="3.2s" begin="0.25s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="110" cy="0" rx="34" ry="12" fill="#f5b942"/>
+    <ellipse cx="110" cy="0" rx="10" ry="10" fill="#0a0907"/>
+    <!-- soft outline suggestion -->
+    <path d="M-70 -40 Q-20 -95 55 -100 Q130 -95 180 -40" fill="none" stroke="#f5b942" stroke-width="1.2" opacity="0.35"/>
+  </g>
+
+  <!-- brand ∅ -->
+  <g transform="translate(96,118)" filter="url(#soft)">
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="118" fill="#f4f1ea" letter-spacing="-2">∅</text>
+    <circle cx="42" cy="-38" r="46" fill="none" stroke="#f5b942" stroke-width="1.4" opacity="0.45">
+      <animate attributeName="r" values="42;52;42" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.55;0.25" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- copy -->
+  <text x="96" y="230" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="700" fill="#f7f4ee">Silence. Signal net.</text>
+  <text x="96" y="275" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" fill="#b9b3a6">Une présence sans visage — seulement le travail, et le regard.</text>
+
+  <!-- chips -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" fill="#0a0907">
+    <rect x="96" y="310" width="118" height="28" rx="2" fill="#f5b942">
+      <animate attributeName="opacity" values="0.92;1;0.92" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="155" y="328" text-anchor="middle" font-weight="700">signal</text>
+    <rect x="226" y="310" width="118" height="28" rx="2" fill="none" stroke="#f7f4ee" stroke-width="1.2"/>
+    <text x="285" y="328" text-anchor="middle" fill="#f7f4ee" font-weight="600">silence</text>
+  </g>
+</svg>
