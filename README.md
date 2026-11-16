@@ -46,16 +46,6 @@ Pas de biographie. Pas de carte. Un flux de commits, des formes en C, parfois un
 
 <br/>
 
-## Traces
-
-Travaux publics — à ouvrir sans présentation.
-
-- [Libft-42](https://github.com/42randomuser/Libft-42) — fondations
-- [ft_printf](https://github.com/42randomuser/ft_printf) — format
-- [gnl](https://github.com/42randomuser/gnl) — lignes
-
-<br/>
-
 <div align="center">
 
   <img src="assets/wave.svg" alt="" width="520" />
