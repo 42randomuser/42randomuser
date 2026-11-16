@@ -26,15 +26,15 @@
 
 <br/>
 
-## Fréquence
+## Latence
 
-Pas de biographie. Pas de carte. Un flux de commits, des formes en C, parfois un signal plus large.
+Entre deux commits, le même noir. Pas d’histoire à raconter — seulement l’intervalle.
 
 |  |  |
 |:--|:--|
-| **regard** | ce qui reste quand le visage n’est pas nommé |
-| **signal** | code, diffs, silence entre les lignes |
-| **∅** | ensemble vide — marque, pas identité |
+| **ambre** | lumière basse — ce qui tient sans éclairer |
+| **vide** | place laissée au signal |
+| **∅** | pas un nom — une absence choisie |
 
 <br/>
 
