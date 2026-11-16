@@ -2,6 +2,7 @@
   Native GitHub profile README.
   Brand: ∅ — anonymous / abstract. No personal identity.
   Separators: assets/wave.svg only (no --- / <hr> / h1–h2 border rules).
+  Titles: SVG wordmarks (GitHub strips large inline font-size styles).
 -->
 
 <div align="center">
@@ -12,7 +13,9 @@
 
   <img src="assets/sigil.svg" width="72" height="72" alt="∅" />
 
-  <h3>∅</h3>
+  <br/>
+
+  <img src="assets/title-brand.svg" alt="∅" width="160" />
 
   <p><em>Silence. Signal net.</em></p>
 
@@ -29,7 +32,7 @@
 
 <div align="center">
 
-  <h3>Stack</h3>
+  <img src="assets/title-stack.svg" alt="Stack" width="280" />
 
   <p><em>Outils, pas biographie.</em></p>
 
