@@ -12,7 +12,7 @@
 
   <img src="assets/sigil.svg" width="72" height="72" alt="∅" />
 
-  <p><strong>∅</strong></p>
+  <h3>∅</h3>
 
   <p><em>Silence. Signal net.</em></p>
 
