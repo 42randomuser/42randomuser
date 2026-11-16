@@ -73,7 +73,7 @@
 
   <!-- copy -->
   <text x="96" y="230" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="42" font-weight="700" fill="#f7f4ee">Silence. Signal net.</text>
-  <text x="96" y="275" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" fill="#b9b3a6">Une présence sans visage — seulement le travail, et le regard.</text>
+  <text x="96" y="275" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" fill="#b9b3a6">A presence without a face — only the work, and the gaze.</text>
 
   <!-- chips -->
   <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" fill="#0a0907">

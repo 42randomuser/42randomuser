@@ -7,7 +7,7 @@
 
 <div align="center">
 
-  <img src="assets/banner.svg" alt="Silence. Signal net." width="100%" />
+  <img src="assets/banner.svg?v=en" alt="Silence. Signal net." width="100%" />
 
   <br/>
 
@@ -16,8 +16,8 @@
   <p><em>Silence. Signal net.</em></p>
 
   <p>
-    Une présence sans visage —<br/>
-    seulement le travail, et le regard.
+    A presence without a face —<br/>
+    only the work, and the gaze.
   </p>
 
   <img src="assets/wave.svg" alt="" width="720" />
@@ -30,9 +30,9 @@
 
   <img src="assets/title-stack.svg" alt="Stack" width="280" />
 
-  <p><em>Outils, pas biographie.</em></p>
+  <p><em>Tools, not biography.</em></p>
 
-  <img src="assets/stack.svg" alt="Stack — C, Shell, Make, Git, Fedora, Vim · réseaux, forensic, cyber (pentest / red team)" width="900" />
+  <img src="assets/stack.svg?v=en" alt="Stack — C, Shell, Make, Git, Fedora, Vim · networking, forensic, cyber (pentest / red team)" width="900" />
 
 </div>
 
@@ -58,6 +58,6 @@
 
   <img src="assets/wave.svg" alt="" width="520" />
 
-  <p><sub>∅ — le signal, pas le nom.</sub></p>
+  <p><sub>∅ — the signal, not the name.</sub></p>
 
 </div>
