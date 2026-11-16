@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64" role="img" aria-label="Stack">
+  <defs>
+    <linearGradient id="amberFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5b942" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f5b942" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="4" width="240" height="1" fill="url(#amberFade)" opacity="0.7"/>
+  <text x="160" y="42" text-anchor="middle"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+        font-size="36" font-weight="700" letter-spacing="6" fill="#f4f1ea">Stack</text>
+  <rect x="40" y="58" width="240" height="1" fill="url(#amberFade)" opacity="0.45"/>
+</svg>
