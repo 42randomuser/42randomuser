@@ -31,7 +31,7 @@
     <g transform="translate(36,34)">
       <rect width="130" height="68" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.45" stroke-width="1"/>
       <text x="65" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#f5b942">C</text>
-      <text x="65" y="58" text-anchor="middle" font-size="10" fill="#b9b3a6" letter-spacing="1.5">LANGAGE</text>
+      <text x="65" y="58" text-anchor="middle" font-size="10" fill="#b9b3a6" letter-spacing="1.5">LANGUAGE</text>
     </g>
     <!-- Shell -->
     <g transform="translate(182,34)">
@@ -68,7 +68,7 @@
     </g>
 
     <!-- row 2 — domains -->
-    <!-- réseaux -->
+    <!-- networking -->
     <g transform="translate(36,122)">
       <rect width="268" height="72" rx="4" fill="url(#tile)" stroke="#f5b942" stroke-opacity="0.35" stroke-width="1"/>
       <circle cx="36" cy="36" r="8" fill="none" stroke="#f5b942" stroke-width="1.3"/>
@@ -76,7 +76,7 @@
       <circle cx="64" cy="44" r="5" fill="none" stroke="#f5b942" stroke-width="1.1" opacity="0.7"/>
       <line x1="44" y1="33" x2="59" y2="28" stroke="#f5b942" stroke-width="1" opacity="0.8"/>
       <line x1="44" y1="39" x2="59" y2="44" stroke="#f5b942" stroke-width="1" opacity="0.8"/>
-      <text x="168" y="34" text-anchor="middle" font-size="16" font-weight="600" fill="#f4f1ea" letter-spacing="1">réseaux</text>
+      <text x="168" y="34" text-anchor="middle" font-size="16" font-weight="600" fill="#f4f1ea" letter-spacing="1">networks</text>
       <text x="168" y="54" text-anchor="middle" font-size="11" fill="#b9b3a6" letter-spacing="1.5">NETWORKING</text>
     </g>
     <!-- forensic -->
