@@ -11,10 +11,6 @@
 
   <br/>
 
-  <img src="assets/sigil.svg" width="72" height="72" alt="∅" />
-
-  <br/>
-
   <img src="assets/title-brand.svg" alt="∅" width="160" />
 
   <p><em>Silence. Signal net.</em></p>
