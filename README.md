@@ -7,7 +7,7 @@
 
 <div align="center">
 
-  <img src="assets/banner-net.svg?v=20261120t2215" alt="Silence. Signal net." width="100%" />
+  <img src="assets/banner-net.svg?v=hud1" alt="Silence. Signal net." width="100%" />
 
   <br/>
 
